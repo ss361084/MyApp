@@ -1,0 +1,83 @@
+#metadata for sts configuration
+.metadata
+
+myapp-backend/HELP.md
+myapp-backend/target/
+myapp-backend/!.mvn/wrapper/maven-wrapper.jar
+myapp-backend/!**/src/main/**/target/
+myapp-backend/!**/src/test/**/target/
+
+### STS ###
+myapp-backend/.apt_generated
+myapp-backend/.classpath
+myapp-backend/.factorypath
+myapp-backend/.project
+myapp-backend/.settings
+myapp-backend/.springBeans
+myapp-backend/.sts4-cache
+
+### IntelliJ IDEA ###
+myapp-backend/.idea
+myapp-backend/*.iws
+myapp-backend/*.iml
+myapp-backend/*.ipr
+
+### NetBeans ###
+/myapp-backend/nbproject/private/
+/myapp-backend/nbbuild/
+/myapp-backend/dist/
+/myapp-backend/nbdist/
+/myapp-backend/.nb-gradle/
+myapp-backend/build/
+myapp-backend/!**/src/main/**/build/
+myapp-backend/!**/src/test/**/build/
+
+### VS Code ###
+myapp-backend/.vscode/
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/myApp-FrontEnd/dist
+/myApp-FrontEnd/tmp
+/myApp-FrontEnd/out-tsc
+# Only exists if Bazel was run
+/myApp-FrontEnd/bazel-out
+
+# dependencies
+/myApp-FrontEnd/node_modules
+
+# profiling files
+myApp-FrontEnd/chrome-profiler-events*.json
+myApp-FrontEnd/speed-measure-plugin*.json
+
+# IDEs and editors
+/myApp-FrontEnd/.idea
+myApp-FrontEnd/.project
+myApp-FrontEnd/.classpath
+myApp-FrontEnd/.c9/
+myApp-FrontEnd/*.launch
+myApp-FrontEnd/.settings/
+myApp-FrontEnd/*.sublime-workspace
+
+# IDE - VSCode
+myApp-FrontEnd/.vscode/*
+myApp-FrontEnd/!.vscode/settings.json
+myApp-FrontEnd/!.vscode/tasks.json
+myApp-FrontEnd/!.vscode/launch.json
+myApp-FrontEnd/!.vscode/extensions.json
+myApp-FrontEnd/.history/*
+
+# misc
+/myApp-FrontEnd/.sass-cache
+/myApp-FrontEnd/connect.lock
+/myApp-FrontEnd/coverage
+/myApp-FrontEnd/libpeerconnection.log
+myApp-FrontEnd/npm-debug.log
+myApp-FrontEnd/yarn-error.log
+myApp-FrontEnd/testem.log
+/myApp-FrontEnd/typings
+
+# System Files
+myApp-FrontEnd/.DS_Store
+myApp-FrontEnd/Thumbs.db
